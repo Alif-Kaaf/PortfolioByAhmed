@@ -1,0 +1,59 @@
+/**
+ * /* media queries
+ *
+ * @format
+ */
+
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+
+  body {
+    padding-right: 0;
+  }
+
+  section {
+    padding: 2rem;
+  }
+
+  header {
+    width: 100%;
+    left: -120%;
+  }
+
+  header.active {
+    left: 0%;
+  }
+
+  #menu-bars {
+    display: initial;
+  }
+
+  header .navbar {
+    writing-mode: horizontal-tb;
+  }
+
+  header .navbar a {
+    display: block;
+    font-size: 3rem;
+  }
+  .cursor-1,
+  .cursor-2 {
+    display: none;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+
+  .heading {
+    font-size: 4rem;
+  }
+
+  .contact .row form .inputBox input {
+    width: 100%;
+  }
+}
